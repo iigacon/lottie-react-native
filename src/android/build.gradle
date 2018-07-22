@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply from: 'gradle-maven-push.gradle'
+#apply from: 'gradle-maven-push.gradle'
 
 android {
   compileSdkVersion 26
@@ -23,5 +23,5 @@ android {
 
 dependencies {
   provided "com.facebook.react:react-native:+"
-  compile 'com.airbnb.android:lottie:2.5.+'
+  compile 'com.airbnb.android:lottie:2.2.3'
 }
